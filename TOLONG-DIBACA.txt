@@ -1,0 +1,65 @@
+Setau aku gabisa pake plugin live server vscode buat PHP code. solusinya aktifkan xampp, pastikan folder Lurizoo ada di folder xampp/htdocs. buka browser ketik localhost/Lurizoo/(file yg mau dibuka, ex=index.php)
+
+(SUDAH INCLUDE SCRIPT DATABASE DIDALAM FOLDER LURIZOO)
+
+/assets = img semua
+/css	= setup css
+/db
+   errors.php = untuk nerima error pada form
+   server.php = code connect database, registrasi, login, dan book tiket 
+
+/headerFooter
+   footer.php = code footer yang tinggal di include aja dari php-awal
+   header-login.php = code tampilan header jikasudah login
+   header.php = code tampilan header jika belum login
+   php-awal.php = code awal untuk beberapa page berisi function
+
+/tiket
+   tiket-print.php = tampilan isian dari form tiket ditambah pin 
+
+	
+
+- NAVBAR
+	tiket.php
+		pesan-tiket.php
+	denah.php
+	login.php
+	signin.php
+
+- TENTANG
+	about.php
+
+- SATWA KAMI ada file(satwa.php)tp gatau gimana aksesnya|gak nyambung kemana-mana kyknya
+	burung.php
+		kepondang.php
+		kenari.php
+		kakatua.php
+		elang.php
+		merak.php
+	ikan.php
+		pari.php
+		hiu.php
+		bluetang.php
+		badut.php
+		arwana.php
+	mamalia.php
+		singa.php
+		rusa.php
+		jerapah.php
+		harimau.php
+		gajah.php
+	reptil.php
+		ular.php
+		iguana.php
+		kura-kura.php
+		buaya.php
+		bunglon.php
+
+BACKEND FILE NAME:
+server.php 		(connect to database)
+server.php 	(function login&register dari database)
+server.php	(function add value to database)
+server.php (function register tiket)
+	
+PROBLEM:
+
